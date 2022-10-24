@@ -53,8 +53,8 @@ class Library():
         return self.books == []
 
     def display_books(self):
-        print(f'presorted --> {self.books}')
+        # print(f'presorted --> {self.books}')
         self.books.sort()
-        print(f'sorted --> {self.books}')
+        # print(f'sorted --> {self.books}')
         for book in self.books:
             print(book)
