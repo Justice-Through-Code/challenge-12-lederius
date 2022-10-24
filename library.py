@@ -25,7 +25,8 @@ class Library():
     def remove_title(self, title:str):
         """Remove a book from the book list"""
         self.title = title
-        print(f'title passed --> {self.title}')
+        #print(f'title passed --> {self.title}')
+        
         # for x in range(len(self.books)):
         #     print(f'just x -->{x}')
         #     print(f'just self.books[x] -->{self.books[x]}')
@@ -35,11 +36,11 @@ class Library():
                 
 
         for bookTitle in self.books:
-            print(f'just book title -->{bookTitle}')
-            print(f'book title --> {bookTitle.title}')
+            #print(f'just book title -->{bookTitle}')
+            #print(f'book title --> {bookTitle.title}')
             if bookTitle.title == self.title:
-                print('match!!!', )
-                print(f'self.books --> {self.books}')
+                # print('match!!!', )
+                # print(f'self.books --> {self.books}')
                 # print(f' will this work --> {self.books[bookTitle]}')
                 self.books.remove(bookTitle)
                 #spent HOURS trying to get line 43 to work so it could help
